@@ -1,2 +1,2 @@
-# mleiot.github.io
-Page for MLEIOT
+# cesschool.github.io
+website for summer school
