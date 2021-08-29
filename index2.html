@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title> Machine Learning Enabled IoT</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/jquery/jquery.countdown.js"></script>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/venobox/venobox.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <script>
+    function includeHTML() {
+      var z, i, elmnt, file, xhttp;
+      /*loop through a collection of all HTML elements:*/
+      z = document.getElementsByTagName("*");
+      for (i = 0; i < z.length; i++) {
+        elmnt = z[i];
+        /*search for elements with a certain atrribute:*/
+        file = elmnt.getAttribute("w3-include-html");
+        if (file) {
+          /*make an HTTP request using the attribute value as the file name:*/
+          xhttp = new XMLHttpRequest();
+          xhttp.onreadystatechange = function() {
+            if (this.readyState == 4) {
+              if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+              if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+              /*remove the attribute, and call this function once more:*/
+              elmnt.removeAttribute("w3-include-html");
+              includeHTML();
+            }
+          }      
+          xhttp.open("GET", file, true);
+          xhttp.send();
+          /*exit the function:*/
+          return;
+        }
+      }
+    };
+    </script>
+
+  <!-- =======================================================
+    Theme Name: ConnectedEverything
+  ======================================================= -->
+</head>
+
+
+
+<div w3-include-html="header.html">
+  
+</div>
+
+    <section id="intro">
+      <div class="intro-container wow fadeIn">
+        <h1 class="mb-4 pb-0">Ultra-Low-Cost <span>Machine Learning </span> <br> <span> Enabled IoT </span> Devices on the Edge </h1>
+        <p class="mb-4 pb-0">12-14 July, Online</p>
+        <p class="mb-4 pb-0"> Organizers: The Hashemite University & The University of Leeds</p>
+        <div id="getting-started" style="color:white"></div>
+        <script type="text/javascript">
+          $("#getting-started")
+          .countdown("2021/09/12", function(event) {
+            $(this).text(
+              event.strftime('%D days %H:%M:%S to Event')
+            );
+          });
+        </script>
+        <a href="#about" class="about-btn scrollto">About The Poject</a>
+      </div>
+    </section>
+
+    <!--==========================
+      About Section
+    ============================-->
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <h2>About The Event</h2>
+             <p style="text-align:justify">We are delighted to welcome you to the 2021 edition of Connected Everything (CE) II Summer School. Our core theme this year is "Industrial Internet-of-Things (IIoT) for Connected Factories". The school is hosted by the School of Electronic and Electrical Engineering at Leeds University, UK in collaboration with the School of Computing and Engineering at the University of Huddersfield, UK.</p>
+             <p style="text-align:justify"> The summer school aims to provide a platform for interdisciplinary discussions around recent advancements in IIoT. This year we have very exciting programme which involves a mix of industrial and academic talks around the thematic area. The program also includes hands-on sessions and a Hackathon for participants. </p>
+
+
+          </div>
+          <div class="col-lg-3">
+            <h3>Where</h3>
+            <p>Due to the uncertainity around the pandemic, this year School will be fully virtual (online).</p>
+            <h3>When</h3>
+            <p>Monday to Wednesday<br>12-14 July</p>
+          </div>
+          <div class="col-lg-3">
+            <h3>About the Network+:</h3>
+            <p style="text-align:justify">  ConnectedEverything II Network+ is an EPSRC-funded research network for the Digital Manufacturing community which is addressing the question ‘how do we support the future of manufacturing in the UK?‘ As digital technology advances, the manufacturing sector must adapt and respond to a great number of drivers and barriers. </p>
+             <a href="https://connectedeverything.ac.uk/" style="border-radius: 5pt;background-color:#702A34;color:white"> &nbsp; More Information &nbsp; </a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  
+<!--==========================
+      Organizers Section
+    ============================-->
+    <section id="speakers" class="wow fadeInUp">
+      <div class="container">
+        <div class="section-header">
+          <h2>Event Organizer</h2>
+          <p>Organized by the University of Leeds and the University of Hudderesfield.</p>
+        </div>
+      
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="speaker">
+              <img src="img/speakers/ali.png" alt="Organizer 1" class="img-fluid">
+              <div class="details">
+                <h3><a href="13.html"> Chair:Ali Hayajneh</a></h3>
+                <p>The Hashemite Universtiy <br> University of Leeds </p>
+                <div class="social">
+                  <a href="https://www.linkedin.com/in/syed-ali-raza-zaidi-86a65213/?originalSubdomain=uk"><i
+                      class="fa fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="speaker">
+              <img src="img/speakers/haitham.png" alt="Organizer 2" class="img-fluid">
+              <div class="details">
+                <h3><a href="14.html">Haitham Obiedollah</a></h3>
+                <p>The Hashemite Universtiy</p>
+                <div class="social">
+                  <a href="https://www.linkedin.com/in/maryam-hafeez-7b0219151/"><i class="fa fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="speaker">
+              <img src="img/speakers/13.jpg" alt="Organizer 3" class="img-fluid">
+              <div class="details">
+                <h3><a href="13.html">Syed Ali Raza Zaidi</a></h3>
+                <p>The University of Leeds</p>
+                <div class="social">
+                  <a href="https://www.linkedin.com/in/qasim-zeeshan-ahmed-17936a4a/"><i class="fa fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!--==========================
+      Venue Section
+    ============================-->
+    <section id="venue" class="wow fadeInUp">
+
+      <div class="container-fluid">
+
+        <div class="section-header">
+          <h2>Joining Details</h2>
+          <p style="text-align:center"> Passwords and Joining instructions have been sent out to participants. Meetings on each day can be accessed using following Zoom links. </p>
+          <p style="text-align:center">
+          <br/><a href="https://universityofleeds.zoom.us/j/84319557868?pwd=NXdjbDVqMk9JWlcwY09pU29FUkNXdz09">Day 1 Link</a>
+          <br/><a href="https://universityofleeds.zoom.us/j/87260597019?pwd=Y1ozdk9XaHRCVG5tek1ESzdOZ2ZmQT09">Day 2 Link</a>
+          <br/><a href="https://universityofleeds.zoom.us/j/81643728032?pwd=RnBJRjN2TW0yNE5taFY5ejUwVmVJQT09">Day 3 Link</a> </p>
+          <br/><br/><h3> Hands on NVIDIA Deep Learning Training </h3>
+          <p style="text-align:justify"> On Day 2 (13th July 2:00-6:00 pm), the summer school is conducting an exclusive NVIDIA Deep Learning Institute (DLI) supported hands-on workshop on Deep Learning powered by GPUs in the cloud. Upon successful completion of the assessment, participants will receive an NVIDIA DLI certificate to recognize their subject matter competency and support professional career growth. A welcome pack has been sent to participants and they can access the NVIDIA GPU resources using the links. </p>
+          <p style="text-align:justify"> Participation in the workshop requires an understanding of fundamental programming concepts in Python such as functions, loops, dictionaries, and arrays. Suggested materials to satisfy prerequisites can be found at: <a href="https://www.codecademy.com/learn/learn-python"> Python Course </a> </p>
+        </div>
+
+
+     </div>
+    </section>
+
+    <!--==========================
+      Hotels Section
+    ============================-->
+    <section id="hotels" class="section-with-bg wow fadeInUp">
+
+      <div class="container">
+        <div class="section-header">
+          <h2>Hackathon</h2>
+          <p>We will be announcing details of Hackathon competition soon. Keep an eye on this space to find more about hardware and software requirements.</p>
+        </div>
+
+
+      </div>
+
+    </section>
+
+
+
+    <!--==========================
+      Sponsors Section
+    ============================-->
+    <section id="supporters" class="section-with-bg wow fadeInUp">
+
+      <div class="container">
+        <div class="section-header">
+          <h2>Sponsors</h2>
+        </div>
+
+        <div class="row no-gutters supporters-wrap clearfix">
+
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="supporter-logo">
+              <img src="img/supporters/1.png" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="supporter-logo">
+              <img src="img/supporters/2.png" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="supporter-logo">
+              <img src="img/supporters/3.png" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="supporter-logo">
+              <img src="img/supporters/4.png" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="supporter-logo">
+              <img src="img/supporters/5.png" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="supporter-logo">
+              <img src="img/supporters/6.jpg" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="supporter-logo">
+              <img src="img/supporters/7.png" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="supporter-logo">
+              <img src="img/supporters/8.png" class="img-fluid" alt="">
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    
+    <!--==========================
+      Buy Ticket Section
+    ============================-->
+    <section id="buy-tickets" class="section-with-bg wow fadeInUp">
+      <div class="container">
+
+        <div class="section-header">
+          <h2>Register Next Workshop</h2>
+          <p> Registration form for the Summer School.</p>
+        </div>
+        <div class="col-lg-12">
+          There are a limited number of places for this event. If you are interested in attending the school, please complete the application form below before <b>30th June 2021</b>.
+        </div>
+        <div>
+          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSflwksQP5bxGrxT35VcHgGyGFqbSqC1Qd23Wo5iYTCgQHbR_A/viewform?usp=sf_link" frameborder="0" style="border:0;width:100%; height:600px;" allowfullscreen></iframe>
+        </div>
+
+
+
+
+
+
+      </div>
+
+    </section>
+
+    <!--==========================
+      Contact Section
+    ============================-->
+    <section id="contact" class="section-bg wow fadeInUp">
+
+      <div class="container">
+
+        <div class="section-header">
+          <h2>Contact Us</h2>
+          <p>Please use this form to contact organizers.</p>
+        </div>
+
+        <div class="row contact-info">
+
+          <div class="col-md-12">
+            <div class="contact-email">
+              <i class="ion-ios-email-outline"></i>
+              <h3>Email</h3>
+              <p><a href="mailto:networkplus.summerschool@gmail.com">networkplus.summerschool@gmail.com</a></p>
+            </div>
+          </div>
+
+        </div>
+
+
+        </div>
+
+      </div>
+    </section><!-- #contact -->
+
+    <div w3-include-html="footer.html"></div>
+
+
+ 
+<a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
+
+<!-- JavaScript Libraries -->
+
+
+<script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="lib/easing/easing.min.js"></script>
+<script src="lib/superfish/hoverIntent.js"></script>
+<script src="lib/superfish/superfish.min.js"></script>
+<script src="lib/wow/wow.min.js"></script>
+<script src="lib/venobox/venobox.min.js"></script>
+<script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+<!-- Contact Form JavaScript File -->
+  <!-- Template Main Javascript File -->
+<script src="js/main.js"></script>
+
+<script>
+  includeHTML();
+  </script>
+</body>
+
+</html>
